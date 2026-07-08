@@ -6,6 +6,7 @@
 <title>The GTM — AI-Powered GTM Strategy &amp; Outbound Execution</title>
 <meta name="description" content="Build your GTM strategy, find the right prospects, and run consistent outbound — automatically. No agency. No GTM engineer. Just results." />
 <meta name="keywords" content="GTM strategy, outbound automation, AI prospecting, ICP segmentation, B2B outbound, sales automation" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
@@ -23,8 +24,10 @@
   section { position: relative; }
 
   nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(8px); border-bottom: 1px solid var(--gray-300); padding: 0 2rem; height: 64px; display: flex; align-items: center; justify-content: space-between; }
-  .nav-logo { font-family: var(--font-display); font-weight: 800; font-size: 1.25rem; color: var(--black); text-decoration: none; letter-spacing: -0.02em; }
+  .nav-logo { display: inline-flex; align-items: center; gap: 0.55rem; font-family: var(--font-display); font-weight: 800; font-size: 1.25rem; color: var(--black); text-decoration: none; letter-spacing: -0.02em; }
   .nav-logo span { color: var(--accent); }
+  .nav-logo .mark { width: 30px; height: 30px; border-radius: 8px; background: var(--black); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .nav-logo .mark span { font-family: var(--font-display); font-weight: 800; font-size: 1.05rem; color: var(--accent); }
   .nav-cta { background: var(--black); color: var(--white); padding: 0.5rem 1.25rem; border-radius: 6px; font-size: 0.875rem; font-weight: 600; text-decoration: none; transition: background 0.2s; }
   .nav-cta:hover { background: var(--accent); }
 
@@ -107,7 +110,7 @@
 <body>
 
 <nav>
-  <a href="#" class="nav-logo">The <span>GTM</span></a>
+  <a href="#" class="nav-logo"><span class="mark"><span>G</span></span>The <span>GTM</span></a>
   <a href="#pricing" class="nav-cta">Get Started</a>
 </nav>
 
